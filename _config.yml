@@ -1,11 +1,11 @@
 title: "Rajat Joshi"
 description: "PhD Candidate"
-url: "https://rajatjoshi8.github.io/rajatjoshi.github.io/"
+url: "https://rajatjoshi8.github.io/rajatjoshi.github.io"
 theme: jekyll-theme-cayman
 repository: rajatjoshi8/rajatjoshi.github.io
 
 # Navigation Links
-header_pages: 
+header_pages:
   - index.md
   - about.md
   - projects.md
@@ -16,6 +16,8 @@ author:
   name: "Rajat Joshi"
   avatar: "https://raw.githubusercontent.com/rajatjoshi8/rajatjoshi.github.io/main/IMG-3026.jpg"
   scholar: "https://scholar.google.com/citations?user=FVbbAZMAAAAJ&hl=en"
+  #linkedin: "https://www.linkedin.com/in/rajat-joshi/"
+  #cv: "assets/CV_Rajat_Joshi.pdf"
 
 # Defaults
 defaults:
@@ -23,4 +25,4 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "single"
+      layout: "post"
