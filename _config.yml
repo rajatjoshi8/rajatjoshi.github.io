@@ -1,4 +1,28 @@
 title: "Rajat Joshi"
 description: "PhD Candidate"
 url: "https://rajatjoshi8.github.io/rajatjoshi.github.io/"
-theme: jekyll-theme-minimal
+theme: minimal-mistakes-jekyll
+repository: rajatjoshi8/rajatjoshi.github.io
+
+# Navigation Links
+
+header_pages: 
+  - index.md
+  - about.md
+  - projects.md
+  - contact.md
+
+# Social Links
+
+author:
+  name: "Rajat Joshi"
+  avatar: "https://github.com/rajatjoshi8/rajatjoshi.github.io/blob/main/IMG-3026.jpg"
+
+  scholar: "https://scholar.google.com/citations?user=FVbbAZMAAAAJ&hl=en"
+
+  defaults:
+    -scope:
+       path: ""
+       type: "posts"
+    values:
+      layout: "single"
