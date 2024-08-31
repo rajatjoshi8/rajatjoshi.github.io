@@ -1,22 +1,15 @@
-/* Style for the body with gradient at the top 30% and solid gray for the remaining */
+/* Full page background with gradient at the top 30% and solid color for the rest */
 body {
-    background: linear-gradient(to bottom, 
-                                #e0f7fa 0%,      /* Light cloud color */
-                                #80deea 30%,     /* Transition to ocean blue */
-                                #808080 30%,     /* Start of solid gray color */
-                                #808080 100%);   /* Continue gray to bottom */
-    background-repeat: no-repeat; /* Ensure the background does not repeat */
-    height: 100vh; /* Set height to cover the full viewport */
+    background: 
+      linear-gradient(to bottom, #e0f7fa 30%, #808080 30%);
+    height: 100vh; /* Full viewport height */
     margin: 0; /* Remove default margin */
 }
 
-/* Optional: If you want to apply the gradient only to a specific section */
-.page-header {
-    background: linear-gradient(to bottom, 
-                                #e0f7fa 0%, 
-                                #80deea 30%, 
-                                #808080 30%, 
-                                #808080 100%);
-    background-repeat: no-repeat; /* Prevent repeating */
-    color: #ffffff; /* Ensure text contrasts well */
+/* Optional: Style for the main content area if needed */
+.content {
+    padding: 20px;
+    background-color: transparent; /* Transparent to see the gradient background */
+    color: #000; /* Ensure text color is readable */
 }
+
