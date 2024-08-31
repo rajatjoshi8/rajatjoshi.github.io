@@ -1,0 +1,11 @@
+/* Apply a gradient background representing clouds and ocean water */
+body {
+  background: linear-gradient(to bottom, #e0f7fa 0%, #80deea 50%, #0277bd 100%);
+  /* The gradient transitions from light blue (cloud-like) to a deeper ocean blue */
+}
+
+/* Or, apply the gradient to a specific section, such as the page header */
+.page-header {
+  background: linear-gradient(to bottom, #e0f7fa 0%, #80deea 50%, #0277bd 100%);
+  color: #ffffff; /* Ensure text color contrasts well with the background */
+}
