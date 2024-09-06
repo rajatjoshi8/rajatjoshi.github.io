@@ -2,7 +2,7 @@
 layout: default
 title: "Home"
 ---
-<img src="{{ site.avatar }}" alt="Rajat Joshi's photo" style="border-radius:50%; width:150px; height:150px;">
+<img src="assets/IMG-3026.jpg" alt="Rajat Joshi's photo" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover; margin-bottom: 20px;">
 
 Hello! I am a graduate student in the Program in Atmospheric and Oceanic Sciences at Princeton University, advised by Dr Rong Zhang. 
 My primary research interests are the ocean's role in climate, air-sea interactions, global teleconnections, Indian monsoon, and extreme events. 
