@@ -1,15 +1,37 @@
-/* Full page background with gradient at the top 30% and solid color for the rest */
+/* Body Styling */
 body {
-    background: 
-      linear-gradient(to bottom, #e0f7fa 30%, #808080 30%);
-    height: 100vh; /* Full viewport height */
-    margin: 0; /* Remove default margin */
+    background-color: #f8f9fa; /* Light Gray background */
+    font-family: Georgia, "Times New Roman", serif; /* Clean and professional font */
+    color: #333; /* Dark text color */
+    margin: 0;
+    padding: 0;
 }
 
-/* Optional: Style for the main content area if needed */
+/* Image Styling */
+img.avatar {
+    border-radius: 50%; /* Circular image */
+    width: 150px; /* Adjust the size */
+    height: 150px;
+    object-fit: cover;
+    margin: 20px auto; /* Margin for top and bottom, centered horizontally */
+    display: block;
+    margin-left: 40px; /* Moves the image slightly to the right */
+}
+
+/* Main Content Styling */
 .content {
-    padding: 20px;
-    background-color: transparent; /* Transparent to see the gradient background */
-    color: #000; /* Ensure text color is readable */
+    max-width: 800px; /* Limits the width of the text */
+    margin: 0 auto; /* Centers the text block */
+    padding: 40px; /* Adds padding for space around the text */
+    background-color: white; /* White background for the text area */
+    border-radius: 8px; /* Adds slight rounding for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
 }
 
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.8em;
+    color: #666;
+}
