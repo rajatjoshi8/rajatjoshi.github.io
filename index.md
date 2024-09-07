@@ -4,7 +4,7 @@ title: "Home"
 ---
 
 <!-- Image section -->
-<img src="assets/Profile_image.jpeg" alt="Rajat Joshi's photo" class="avatar">
+<img src="assets/IMG-3026.jpg" alt="Rajat Joshi's photo" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover; margin-bottom: 20px;">
 
 <!-- Main content -->
 <div class="content">
